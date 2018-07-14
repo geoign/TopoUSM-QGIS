@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=TopoUSM2
+qgisMinimumVersion=3.0
+description=Terrain enhancer with USM
+version=0.1
+author=Fumihiko Ikegami
+email=f.ikegami@gmail.com
+
+about=TopoUSM is a group of tool to enhance visuals of DEM. 1. Ambient shading tool: Adding "realistic" ambient shading for DEM. Best to be sandwitched between pseudo-colored elevation layer and hillshade layer with Overlay or Hard-light blending mode. 2. Generating smoothed terrain in the same resolution as the original raster file. Best friend of contour generating tools.
+
+tracker=https://github.com/geoign/TopoUSM
+repository=https://github.com/geoign/TopoUSM
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=https://sites.google.com/view/topousmx/
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
