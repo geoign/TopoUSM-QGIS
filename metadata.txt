@@ -16,8 +16,8 @@ email=f.ikegami@gmail.com
 
 about=TopoUSM is a group of tool to enhance visuals of DEM. 1. Ambient shading tool: Adding "realistic" ambient shading for DEM. Best to be sandwitched between pseudo-colored elevation layer and hillshade layer with Overlay or Hard-light blending mode. 2. Generating smoothed terrain in the same resolution as the original raster file. Best friend of contour generating tools.
 
-tracker=https://github.com/geoign/TopoUSM
-repository=https://github.com/geoign/TopoUSM
+tracker=https://github.com/geoign/TopoUSM-QGIS
+repository=https://github.com/geoign/TopoUSM-QGIS
 # End of mandatory metadata
 
 # Recommended items:
