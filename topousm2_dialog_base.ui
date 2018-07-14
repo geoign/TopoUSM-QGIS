@@ -194,7 +194,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>4,16</string>
+      <string>4,16,64,256</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_2">
@@ -293,12 +293,12 @@
       <rect>
        <x>30</x>
        <y>360</y>
-       <width>391</width>
+       <width>521</width>
        <height>23</height>
       </rect>
      </property>
      <property name="text">
-      <string>Save blurred terrain which is useful to create smooth contours</string>
+      <string>Save blurred terrain which is useful for generating smooth contours.</string>
      </property>
     </widget>
    </widget>
@@ -312,20 +312,20 @@
        <x>10</x>
        <y>10</y>
        <width>541</width>
-       <height>31</height>
+       <height>41</height>
       </rect>
      </property>
      <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This step handles styling of the usm layers. &lt;br&gt;Adjust sliders to set optimal appearance and then hit 'Run' to bake them into a single file.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This step handles styling of the usm layers. &lt;br&gt;Adjust sliders and press 'Simulate' button to setup optimal appearance. &lt;br&gt;Then hit 'Run' to bake them into a single file.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
     <widget class="QTableView" name="tableView">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>50</y>
+       <y>60</y>
        <width>541</width>
-       <height>191</height>
+       <height>181</height>
       </rect>
      </property>
      <property name="font">
@@ -472,7 +472,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Simulate appearance</string>
+      <string>Simulate appearance (Note: Not exactly accurate)</string>
      </property>
     </widget>
    </widget>
