@@ -10,7 +10,7 @@
 name=TopoUSM2
 qgisMinimumVersion=3.0
 description=Terrain enhancer with USM
-version=0.1
+version=0.2
 author=Fumihiko Ikegami
 email=f.ikegami@gmail.com
 
