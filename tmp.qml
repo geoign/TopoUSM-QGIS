@@ -11,8 +11,8 @@
         <stdDevFactor>2</stdDevFactor>
       </minMaxOrigin>
       <contrastEnhancement>
-        <minValue>-2023.857702507764</minValue>
-        <maxValue>2023.857702507764</maxValue>
+        <minValue>-256.0</minValue>
+        <maxValue>256.0</maxValue>
         <algorithm>StretchToMinimumMaximum</algorithm>
       </contrastEnhancement>
     </rasterrenderer>
