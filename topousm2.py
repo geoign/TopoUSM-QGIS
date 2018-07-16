@@ -29,9 +29,9 @@
 from qgis.gui import (QgsFieldComboBox, QgsMapLayerComboBox)
 from qgis.core import QgsMapLayerProxyModel, QgsColorRampShader, QgsRasterMinMaxOrigin, QgsContrastEnhancement, QgsRasterShader, QgsSingleBandPseudoColorRenderer, QgsSingleBandGrayRenderer
 from PyQt5.QtCore import QSettings, QTranslator, qVersion, QCoreApplication, QFile, QIODevice
-from PyQt5.QtGui import QIcon, QFileDialog, QMessageBox, QLineEdit, QTabWidget, QStandardItem, QStandardItemModel, QColor, QPainter, QTextCursor
+from PyQt5.QtGui import *
 #from PyQt5.QtXml import QDomDocument, QDomElement
-from PyQt5.QtWidgets import QAction
+from PyQt5.QtWidgets import QAction, QMessageBox
 
 # Initialize Qt resources from file resources.py
 from .resources import *
